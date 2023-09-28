@@ -87,7 +87,7 @@ class SceneCredit extends Phaser.Scene {
         potegan.name='PotatoLink';
         potegan.setScale(0.26,0.26);
         let poteganTxt = this.showText.apply(
-            this,['5/29 文学フリマ東京\nト-07〜08',{xx:this.game.config.width*12/16,yy:posYY},'#ffffff']
+            this,['第34回 文学フリマ東京\nト-07〜08',{xx:this.game.config.width*12/16,yy:posYY},'#ffffff']
             );
         poteganTxt.setOrigin(0.5,0.5);
         poteganTxt.setFontSize('20px');
