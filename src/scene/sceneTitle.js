@@ -58,64 +58,64 @@ class SceneTitle extends Phaser.Scene {
         //image
         this.load.image('sky', 'https://labs.phaser.io/assets/skies/space3.png');
         this.load.image('red', 'https://labs.phaser.io/assets/particles/red.png');
-        this.load.image('potato_icon','../assets/images/potatos/potato_photo.gif');
+        this.load.image('potato_icon','./assets/images/potatos/potato_photo.gif');
 
-        this.load.image('spaceBG','../assets/images/space_bg_1_1.png');
-        this.load.image('potatoItem','../assets/images/potatos/potato_item_tk.png');
-        this.load.image('potatoIcon','../assets/images/potatos/potato_icon_tk.png');
-        this.load.image('potato00img','../assets/images/potatos/potato_01_Danshaku.png');
-        this.load.image('potato01img','../assets/images/potatos/potato_02_mayqueen.png');
-        this.load.image('potato02img','../assets/images/potatos/potato_03_Kitaakari.png');
-        this.load.image('potato03img','../assets/images/potatos/potato_04_tooya.png');
-        this.load.image('potato04img','../assets/images/potatos/potato_05_incanomezame.png');
-        this.load.image('potato05img','../assets/images/potatos/potato_06_shadowQueen.png');
+        this.load.image('spaceBG','./assets/images/space_bg_1_1.png');
+        this.load.image('potatoItem','./assets/images/potatos/potato_item_tk.png');
+        this.load.image('potatoIcon','./assets/images/potatos/potato_icon_tk.png');
+        this.load.image('potato00img','./assets/images/potatos/potato_01_Danshaku.png');
+        this.load.image('potato01img','./assets/images/potatos/potato_02_mayqueen.png');
+        this.load.image('potato02img','./assets/images/potatos/potato_03_Kitaakari.png');
+        this.load.image('potato03img','./assets/images/potatos/potato_04_tooya.png');
+        this.load.image('potato04img','./assets/images/potatos/potato_05_incanomezame.png');
+        this.load.image('potato05img','./assets/images/potatos/potato_06_shadowQueen.png');
 
-        this.load.image('potatoGannen','../assets/images/potatoGannen_title.jpg');
+        this.load.image('potatoGannen','./assets/images/potatoGannen_title.jpg');
         
         //button
         /*
-        this.load.spritesheet('soundOnOff','../assets/images/buttons/soundOnOff_color_sprite_mini.png',{frameWidth: 64,frameHeight: 64});
-        this.load.image('restartbtn','../assets/images/buttons/icons8-restart-58.png');
-        this.load.image('creditbtn','../assets/images/buttons/credits_icon.png');
-        this.load.image('titlebtn','../assets/images/buttons/turnback_arrow.png');
+        this.load.spritesheet('soundOnOff','./assets/images/buttons/soundOnOff_color_sprite_mini.png',{frameWidth: 64,frameHeight: 64});
+        this.load.image('restartbtn','./assets/images/buttons/icons8-restart-58.png');
+        this.load.image('creditbtn','./assets/images/buttons/credits_icon.png');
+        this.load.image('titlebtn','./assets/images/buttons/turnback_arrow.png');
         */
-        this.load.spritesheet('soundOnOff','../assets/images/buttons/soundOnnOff_sprite_hand.png',{frameWidth: 64,frameHeight: 64});
-        this.load.image('restartbtn','../assets/images/buttons/restart_btn_hand.png');
-        this.load.image('creditbtn','../assets/images/buttons/credit_hand.png');
-        this.load.image('titlebtn','../assets/images/buttons/titleback_hand.png');
-        this.load.image('potatobtn','../assets/images/potatos/potato_03_Kitaakari.png');
+        this.load.spritesheet('soundOnOff','./assets/images/buttons/soundOnnOff_sprite_hand.png',{frameWidth: 64,frameHeight: 64});
+        this.load.image('restartbtn','./assets/images/buttons/restart_btn_hand.png');
+        this.load.image('creditbtn','./assets/images/buttons/credit_hand.png');
+        this.load.image('titlebtn','./assets/images/buttons/titleback_hand.png');
+        this.load.image('potatobtn','./assets/images/potatos/potato_03_Kitaakari.png');
 
         //sprites
-        this.load.spritesheet('potato00','../assets/images/potatos/potato_01_Danshaku_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato01','../assets/images/potatos/potato_02_mayqueen_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato02','../assets/images/potatos/potato_03_kitaakari_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato03','../assets/images/potatos/potato_04_tooya_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato04','../assets/images/potatos/potato_05_inkanomezame_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato05','../assets/images/potatos/potato_06_shadowqueen_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato06','../assets/images/potatos/potato_07_toyoshiro_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato00','./assets/images/potatos/potato_01_Danshaku_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato01','./assets/images/potatos/potato_02_mayqueen_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato02','./assets/images/potatos/potato_03_kitaakari_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato03','./assets/images/potatos/potato_04_tooya_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato04','./assets/images/potatos/potato_05_inkanomezame_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato05','./assets/images/potatos/potato_06_shadowqueen_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato06','./assets/images/potatos/potato_07_toyoshiro_sprite3.png',{frameWidth: 150,frameHeight: 150});
         // lv2
-        this.load.spritesheet('potato07','../assets/images/potatos/potato_08_snowden_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato08','../assets/images/potatos/potato_09_kitahime_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato09','../assets/images/potatos/potato_10_hokkaikogane_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato10','../assets/images/potatos/potato_11_sayaka_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato11','../assets/images/potatos/potato_12_konafubuki_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato12','../assets/images/potatos/potato_13_earlystarch_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato07','./assets/images/potatos/potato_08_snowden_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato08','./assets/images/potatos/potato_09_kitahime_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato09','./assets/images/potatos/potato_10_hokkaikogane_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato10','./assets/images/potatos/potato_11_sayaka_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato11','./assets/images/potatos/potato_12_konafubuki_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato12','./assets/images/potatos/potato_13_earlystarch_sprite3.png',{frameWidth: 150,frameHeight: 150});
         // color
-        this.load.spritesheet('potato13','../assets/images/potatos/potato_14_kitamurasaki_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato14','../assets/images/potatos/potato_15_NorthernRuby_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato15','../assets/images/potatos/potato_16_StarRuby_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato16','../assets/images/potatos/potato_17_hokkai98go_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato17','../assets/images/potatos/potato_18_incanohitomi_sprite3.png',{frameWidth: 150,frameHeight: 150});
-        this.load.spritesheet('potato18','../assets/images/potatos/potato_19_Redmoon_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato13','./assets/images/potatos/potato_14_kitamurasaki_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato14','./assets/images/potatos/potato_15_NorthernRuby_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato15','./assets/images/potatos/potato_16_StarRuby_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato16','./assets/images/potatos/potato_17_hokkai98go_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato17','./assets/images/potatos/potato_18_incanohitomi_sprite3.png',{frameWidth: 150,frameHeight: 150});
+        this.load.spritesheet('potato18','./assets/images/potatos/potato_19_Redmoon_sprite3.png',{frameWidth: 150,frameHeight: 150});
 
         //audio
-        this.load.audio('bgm_Title','../assets/music/PM_01_OP_2022-05-08.mp3');
-        this.load.audio('bgm_Play','../assets/music/PM_02_Play_2022-05-08.mp3');
-        this.load.audio('soundTurn','../assets/music/PM_03_Turn_2022-05-08.mp3');
-        this.load.audio('soundMatch','../assets/music/PM_04_Match_2022-05-08.mp3');
-        this.load.audio('soundNG','../assets/music/PM_05_NG_2022-05-08.mp3');
-        this.load.audio('bgm_Clear','../assets/music/PM_06_Clear_2022-05-08.mp3');
-        this.load.audio('bgm_End','../assets/music/PM_07_ED_2022-05-08.mp3');
+        this.load.audio('bgm_Title','./assets/music/PM_01_OP_2022-05-08.mp3');
+        this.load.audio('bgm_Play','./assets/music/PM_02_Play_2022-05-08.mp3');
+        this.load.audio('soundTurn','./assets/music/PM_03_Turn_2022-05-08.mp3');
+        this.load.audio('soundMatch','./assets/music/PM_04_Match_2022-05-08.mp3');
+        this.load.audio('soundNG','./assets/music/PM_05_NG_2022-05-08.mp3');
+        this.load.audio('bgm_Clear','./assets/music/PM_06_Clear_2022-05-08.mp3');
+        this.load.audio('bgm_End','./assets/music/PM_07_ED_2022-05-08.mp3');
     }
 
     create ()
