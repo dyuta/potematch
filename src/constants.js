@@ -8,7 +8,7 @@ class Constants{
         
         this.potatoVarietiesColor = ["potato05","potato13","potato14","potato16","potato17","potato18"];
 
-        this.appURL = 'https://potege-match01.herokuapp.com/';
+        this.appURL = 'https://dyuta.github.io/potematch/';
 
         this.potatoDict={
             "potato00":"男爵",
