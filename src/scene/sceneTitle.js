@@ -70,8 +70,8 @@ class SceneTitle extends Phaser.Scene {
         this.load.image('potato04img','./assets/images/potatos/potato_05_incanomezame.png');
         this.load.image('potato05img','./assets/images/potatos/potato_06_shadowQueen.png');
 
-        this.load.image('potatoGannen','/assets/images/potatoGannen_title.jpg');
-        this.load.image('odorenaiGirl','/assets/images/odorenaigirl.jpg');
+        this.load.image('potatoGannen','./assets/images/potatoGannen_title.jpg');
+        this.load.image('odorenaiGirl','./assets/images/odorenaigirl.jpg');
 
         
         //button
