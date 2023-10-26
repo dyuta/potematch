@@ -82,12 +82,13 @@ class SceneCredit extends Phaser.Scene {
 
         // bunfuri
         
-        let potegan =this.setURLImage.apply(this,['potatoGannen','https://c.bunfree.net/c/tokyo34/h1/%E3%83%88/7',
+        let potegan =this.setURLImage.apply(this,['odorenaiGirl','https://c.bunfree.net/p/tokyo37/33196',
             {xx:this.game.config.width*12/16,yy:this.game.config.height*7/11}]);
         potegan.name='PotatoLink';
-        potegan.setScale(0.26,0.26);
+        // potegan.setScale(0.26,0.26);
+        potegan.setScale(0.4,0.4);
         let poteganTxt = this.showText.apply(
-            this,['第34回 文学フリマ東京\nト-07〜08',{xx:this.game.config.width*12/16,yy:posYY},'#ffffff']
+            this,['第37回 文学フリマ東京\n A-31',{xx:this.game.config.width*12/16,yy:posYY},'#ffffff']
             );
         poteganTxt.setOrigin(0.5,0.5);
         poteganTxt.setFontSize('20px');
