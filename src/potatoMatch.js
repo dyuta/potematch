@@ -19,7 +19,7 @@ window.onload=function(){
         //    create: create
         //}
     };
-    mt={};
+    mt=window.mt={};
     mt.consts = new Constants();
     mt.model = new Model();
     mt.emitter = new Phaser.Events.EventEmitter();

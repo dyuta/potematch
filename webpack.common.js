@@ -38,9 +38,10 @@ module.exports = {
     ]
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, "build"),
-    },
+    static: [
+      { directory: path.join(__dirname, "build") },
+      { directory: path.join(__dirname) },
+    ],
     compress: true,
     port: 8080,
   },
